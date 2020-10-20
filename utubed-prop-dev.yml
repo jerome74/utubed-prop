@@ -1,0 +1,9 @@
+mail.subject=utubed confirm email for 
+mail.text1=Hello 
+mail.text2=!!,\n\n\nConfirm your email address and get started!
+mail.text3=\n\nWe need you to confirm your email address, by click on\n\n\n
+mail.text4= https://utubed-1601218389825.azurewebsites.net/api/utubed/confirm/
+mail.ok=\n\ne-mail was confirm!
+#--------------------------- permission ---------------------------------------#
+permission.authorities={"name":"ADMIN","actions":{"permission":"admin:read","permission":"admin:write","permission":"admin:delete"}},{"name":"GUEST","actions":{"permission":"guest:read","permission":"guest:write","permission":"guest:delete"}}
+permission.access="ADMIN,GUEST"
