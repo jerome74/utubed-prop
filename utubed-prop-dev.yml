@@ -8,6 +8,6 @@ mail:
 #--------------------------- permission ---------------------------------------#
 permission:
   authorities:
-    admin: '[{\"name\":\"ADMIN\",\"actions\":{\"permission\":\"admin:read\",\"permission\":\"admin:write\",\"permission\":\"admin:delete\"}}]'
-    guest: '[{\"name\":\"GUEST\",\"actions\":{\"permission\":\"guest:read\",\"permission\":\"guest:write\",\"permission\":\"guest:delete\"}}]'
+    admin: '[{\"name\":\"ADMIN\",\"actions\":{\"read\":\"admin:read\",\"write\":\"admin:write\",\"delete\":\"admin:delete\"}}]'
+    guest: '[{\"name\":\"GUEST\",\"actions\":{\"read\":\"guest:read\",\"write\":\"guest:write\",\"delete\":\"guest:delete\"}}]'
     access: ADMIN,GUEST
