@@ -7,5 +7,7 @@ mail:
   ok: \n\ne-mail was confirm!
 #--------------------------- permission ---------------------------------------#
 permission:
-  authorities: {\"name\":\"ADMIN\",\"actions\":{\"permission\":\"admin:read\",\"permission\":\"admin:write\",\"permission\":\"admin:delete\"}},{\"name\":\"GUEST\",\"actions\":{\"permission\":\"guest:read\",\"permission\":\"guest:write\",\"permission\":\"guest:delete\"}}
+  authorities:
+        admin: {\"name\":\"ADMIN\",\"actions\":{\"permission\":\"admin:read\",\"permission\":\"admin:write\",\"permission\":\"admin:delete\"}}
+        guest: {\"name\":\"GUEST\",\"actions\":{\"permission\":\"guest:read\",\"permission\":\"guest:write\",\"permission\":\"guest:delete\"}}
   access: \"ADMIN,GUEST\"
