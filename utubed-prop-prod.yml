@@ -10,4 +10,4 @@ permission:
   authorities:
     admin: {\"name\":\"ADMIN\",\"actions\":{\"permission\":\"admin:read\",\"permission\":\"admin:write\",\"permission\":\"admin:delete\"}}
     guest: {\"name\":\"GUEST\",\"actions\":{\"permission\":\"guest:read\",\"permission\":\"guest:write\",\"permission\":\"guest:delete\"}}
-access: \"ADMIN,GUEST\"
+    access: \"ADMIN,GUEST\"
