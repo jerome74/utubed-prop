@@ -9,5 +9,5 @@ mail:
 permission:
   authorities:
     admin: '[{\"name\":\"ADMIN\",\"actions\":{\"read\":\"admin:read\",\"write\":\"admin:write\",\"delete\":\"admin:delete\"}}]'
-    guest: '[{\"name\":\"GUEST\",\"actions\":{\"read\":\"guest:read\",\"write\":\"guest:write\",\"delete\":\"guest:delete\"}}]'
+    guest: '[{\"name\":\"GUEST\",\"actions\":{\"read\":\"guest:read\",\"write\":\"\",\"delete\":\"\"}}]'
     access: ADMIN,GUEST
